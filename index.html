@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bravemania Photography - Professional portrait, boudoir, and lifestyle photography in Melbourne. Capturing life's beautiful moments with artistic excellence.">
+    <meta name="keywords" content="photography, portrait photography, boudoir photography, lifestyle photography, Melbourne photographer, professional photography">
+    <meta name="author" content="Safak Duygun - Bravemania Photography">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.bravemaniaphotography.com.au/">
+    <meta property="og:title" content="Bravemania Photography - Capturing Life's Beautiful Moments">
+    <meta property="og:description" content="Professional portrait, boudoir, and lifestyle photography in Melbourne">
+    <meta property="og:image" content="https://www.bravemaniaphotography.com.au/logo-full.png">
+    
+    <title>Bravemania Photography | Professional Photography Melbourne</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo-link">
+                <img src="logo-full.png" alt="Bravemania Photography Logo" class="logo-img">
+            </a>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link cta-button">Book Now</a></li>
+            </ul>
+            
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Photo Collage Background -->
+    <section class="hero" id="home">
+        <div class="hero-collage">
+            <div class="collage-image" style="background-image: url('images/boudoir-04.jpg');"></div>
+            <div class="collage-image" style="background-image: url('images/boudoir-06.jpg');"></div>
+            <div class="collage-image" style="background-image: url('images/boudoir-05.jpg');"></div>
+            <div class="collage-image" style="background-image: url('images/boudoir-07.jpg');"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-title">
+                <h1 class="title-main">BRAVEMANIA</h1>
+                <p class="title-sub">PHOTOGRAPHY</p>
+            </div>
+            <p class="hero-subtitle">Capturing Life's Beautiful Moments</p>
+            <a href="#contact" class="cta-hero">BOOK YOUR SESSION</a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <p class="section-subtitle">Explore my recent work</p>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="portrait">Portrait</button>
+                <button class="filter-btn" data-filter="boudoir">Boudoir</button>
+                <button class="filter-btn" data-filter="lifestyle">Lifestyle</button>
+            </div>
+            
+            <div class="portfolio-grid" id="portfolioGrid">
+                <!-- Portfolio items will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-container">
+                    <div class="logo-frame">
+                        <img src="logo-full.png" alt="Bravemania Photography" style="width: 100%; max-width: 400px;">
+                    </div>
+                </div>
+                
+                <div class="about-content">
+                    <h2>About Bravemania Photography</h2>
+                    <p>Welcome to Bravemania Photography, where every shot tells a story and every moment becomes a timeless memory. Based in the vibrant heart of Melbourne, Victoria, we specialize in capturing the essence of life through our lens.</p>
+                    
+                    <p>Our passion lies in three distinctive photography styles: Portrait Photography that reveals your authentic self, Boudoir Photography that celebrates confidence and elegance, and Lifestyle Photography that captures genuine moments of joy and connection.</p>
+                    
+                    <p>With years of experience and an artistic eye for detail, we create images that don't just document moments—they evoke emotions and preserve memories that last a lifetime.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Satisfaction</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <p class="section-subtitle">Professional photography services tailored to your needs</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">📸</div>
+                    <h3>Portrait Photography</h3>
+                    <p>Professional portraits that capture your unique personality and style. Perfect for personal branding, professional headshots, or artistic expression.</p>
+                    <ul class="service-features">
+                        <li>Professional studio setup</li>
+                        <li>Natural light options</li>
+                        <li>Wardrobe consultation</li>
+                        <li>High-resolution images</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card featured">
+                    <div class="service-icon">✨</div>
+                    <h3>Boudoir Photography</h3>
+                    <p>Elegant and empowering boudoir sessions that celebrate confidence and beauty. A tasteful, artistic experience in a comfortable environment.</p>
+                    <ul class="service-features">
+                        <li>Private, comfortable setting</li>
+                        <li>Professional guidance</li>
+                        <li>Artistic composition</li>
+                        <li>Elegant retouching</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">👨‍👩‍👧‍👦</div>
+                    <h3>Lifestyle Photography</h3>
+                    <p>Candid moments and genuine emotions captured naturally. Perfect for families, babies, and special life moments you want to treasure forever.</p>
+                    <ul class="service-features">
+                        <li>On-location shooting</li>
+                        <li>Natural, candid style</li>
+                        <li>Family-friendly approach</li>
+                        <li>Beautiful storytelling</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">Client Testimonials</h2>
+            <p class="section-subtitle">What our clients say about us</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Absolutely amazing experience! The photos turned out better than I could have imagined. Professional, talented, and made me feel completely comfortable throughout the session."</p>
+                    <p class="testimonial-author">— Sarah M.</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Incredible attention to detail and artistic vision. The boudoir session was empowering and the results were stunning. Highly recommend for anyone looking for professional photography."</p>
+                    <p class="testimonial-author">— Jessica T.</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"The family photos captured our memories perfectly. Natural, beautiful, and full of genuine emotion. We'll treasure these forever. Thank you for your amazing work!"</p>
+                    <p class="testimonial-author">— Michael & Emma K.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's create something beautiful together</p>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p><a href="tel:+61431747529">0431 747 529</a></p>
+                            <p class="contact-note"><a href="https://wa.me/61431747529" target="_blank">WhatsApp</a> & Signal available</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <h3>Email</h3>
+                            <p><a href="mailto:info@bravemaniaphotography.com.au">info@bravemaniaphotography.com.au</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Melbourne, Victoria<br>Australia</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" required placeholder=" ">
+                        <label for="name">Your Name</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" id="email" required placeholder=" ">
+                        <label for="email">Your Email</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder=" ">
+                        <label for="phone">Phone Number (Optional)</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <select id="service" required>
+                            <option value="">Select a service</option>
+                            <option value="portrait">Portrait Photography</option>
+                            <option value="boudoir">Boudoir Photography</option>
+                            <option value="lifestyle">Lifestyle Photography</option>
+                            <option value="other">Other / General Inquiry</option>
+                        </select>
+                        <label for="service">Service Interest</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea id="message" rows="5" required placeholder=" "></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo-full.png" alt="Bravemania Photography" class="footer-logo-img">
+                </div>
+                <div class="footer-info">
+                    <p>&copy; 2024 Bravemania Photography. All rights reserved.</p>
+                    <p>ABN: 67299864966</p>
+                    <p>Safak Duygun | Melbourne, Victoria, Australia</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>✅ Message Sent Successfully!</h3>
+            <p>Thank you for reaching out. We'll get back to you within 24 hours.</p>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
