@@ -58,64 +58,160 @@ window.addEventListener('scroll', () => {
 // 4. Or use image hosting like Imgur and paste the direct image URL
 
 const portfolioData = [
-    // PORTRAIT CATEGORY - Adults/Professional
+    // PORTRAIT CATEGORY
     {
         category: 'portrait',
-        title: 'Professional Portrait',
-        description: 'Business headshot',
-        image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&h=750&fit=crop'
+        title: 'Professional Portrait 1',
+        description: 'Classic elegance',
+        image: 'images/portrait-01.jpg'
     },
     {
         category: 'portrait',
-        title: 'Editorial Style',
-        description: 'Fashion forward',
-        image: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=600&h=750&fit=crop'
+        title: 'Professional Portrait 2',
+        description: 'Timeless style',
+        image: 'images/portrait-02.jpg'
     },
     {
         category: 'portrait',
-        title: 'Classic Portrait',
-        description: 'Timeless elegance',
-        image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600&h=750&fit=crop'
+        title: 'Professional Portrait 3',
+        description: 'Modern sophistication',
+        image: 'images/portrait-03.jpg'
     },
-    
-    // BOUDOIR CATEGORY - Artistic/Intimate
     {
-        category: 'boudoir',
-        title: 'Elegant Boudoir',
+        category: 'portrait',
+        title: 'Professional Portrait 4',
+        description: 'Natural beauty',
+        image: 'images/portrait-04.jpg'
+    },
+    {
+        category: 'portrait',
+        title: 'Professional Portrait 5',
         description: 'Artistic expression',
-        image: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&h=750&fit=crop'
+        image: 'images/portrait-05.jpg'
     },
     {
-        category: 'boudoir',
-        title: 'Empowering Session',
-        description: 'Celebrate confidence',
-        image: 'https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?w=600&h=750&fit=crop'
+        category: 'portrait',
+        title: 'Professional Portrait 6',
+        description: 'Confident presence',
+        image: 'images/portrait-06.jpg'
     },
     {
-        category: 'boudoir',
-        title: 'Intimate Moments',
-        description: 'Personal and powerful',
-        image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&h=750&fit=crop'
+        category: 'portrait',
+        title: 'Professional Portrait 7',
+        description: 'Contemporary style',
+        image: 'images/portrait-07.jpg'
     },
     
-    // LIFESTYLE CATEGORY - Babies/Families/Candid
+    // BOUDOIR CATEGORY
+    {
+        category: 'boudoir',
+        title: 'Elegant Boudoir 1',
+        description: 'Artistic expression',
+        image: 'images/boudoir-01.jpg'
+    },
+    {
+        category: 'boudoir',
+        title: 'Elegant Boudoir 2',
+        description: 'Timeless beauty',
+        image: 'images/boudoir-02.jpg'
+    },
+    {
+        category: 'boudoir',
+        title: 'Elegant Boudoir 3',
+        description: 'Celebrate confidence',
+        image: 'images/boudoir-03.jpg'
+    },
+    {
+        category: 'boudoir',
+        title: 'Elegant Boudoir 4',
+        description: 'Personal empowerment',
+        image: 'images/boudoir-04.jpg'
+    },
+    {
+        category: 'boudoir',
+        title: 'Elegant Boudoir 5',
+        description: 'Intimate moments',
+        image: 'images/boudoir-05.jpg'
+    },
+    {
+        category: 'boudoir',
+        title: 'Elegant Boudoir 6',
+        description: 'Sophisticated style',
+        image: 'images/boudoir-06.jpg'
+    },
+    {
+        category: 'boudoir',
+        title: 'Elegant Boudoir 7',
+        description: 'Natural elegance',
+        image: 'images/boudoir-07.jpg'
+    },
+    {
+        category: 'boudoir',
+        title: 'Elegant Boudoir 8',
+        description: 'Artistic beauty',
+        image: 'images/boudoir-08.jpg'
+    },
+    {
+        category: 'boudoir',
+        title: 'Elegant Boudoir 9',
+        description: 'Timeless grace',
+        image: 'images/boudoir-09.jpg'
+    },
+    {
+        category: 'boudoir',
+        title: 'Elegant Boudoir 10',
+        description: 'Confident beauty',
+        image: 'images/boudoir-10.jpg'
+    },
+    {
+        category: 'boudoir',
+        title: 'Elegant Boudoir 11',
+        description: 'Modern elegance',
+        image: 'images/boudoir-11.jpg'
+    },
+    
+    // LIFESTYLE CATEGORY
     {
         category: 'lifestyle',
-        title: 'Family Moments',
-        description: 'Natural and candid',
-        image: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=600&h=750&fit=crop'
+        title: 'Lifestyle Moments 1',
+        description: 'Natural candid',
+        image: 'images/Lifestyle-06.jpg'
     },
     {
         category: 'lifestyle',
-        title: 'Baby Photography',
-        description: 'Precious moments',
-        image: 'https://images.unsplash.com/photo-1524502397800-2eeaad7c3fe5?w=600&h=750&fit=crop'
-    },
-    {
-        category: 'lifestyle',
-        title: 'Candid Lifestyle',
+        title: 'Lifestyle Moments 2',
         description: 'Genuine emotion',
-        image: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=600&h=750&fit=crop'
+        image: 'images/Lifestyle-07.jpg'
+    },
+    {
+        category: 'lifestyle',
+        title: 'Lifestyle Moments 3',
+        description: 'Family joy',
+        image: 'images/Lifestyle-08.JPG'
+    },
+    {
+        category: 'lifestyle',
+        title: 'Lifestyle Moments 4',
+        description: 'Precious memories',
+        image: 'images/Lifestyle-09.jpg'
+    },
+    {
+        category: 'lifestyle',
+        title: 'Lifestyle Moments 5',
+        description: 'Candid moments',
+        image: 'images/Lifestyle-10.JPG'
+    },
+    {
+        category: 'lifestyle',
+        title: 'Lifestyle Moments 6',
+        description: 'Natural connection',
+        image: 'images/Lifestyle-11.jpg'
+    },
+    {
+        category: 'lifestyle',
+        title: 'Lifestyle Moments 7',
+        description: 'Beautiful moments',
+        image: 'images/Lifestyle-12.jpg'
     }
 ];
 
