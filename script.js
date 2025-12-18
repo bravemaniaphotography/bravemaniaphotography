@@ -51,166 +51,191 @@ window.addEventListener('scroll', () => {
 });
 
 // ===== PORTFOLIO =====
-// TO ADD YOUR OWN PHOTOS:
-// 1. Create a folder called "images" in your GitHub repository
-// 2. Upload your photos to that folder
-// 3. Replace the image URLs below with 'images/your-photo-name.jpg'
-// 4. Or use image hosting like Imgur and paste the direct image URL
-
+// All 30 photos from your GitHub repository
 const portfolioData = [
-    // PORTRAIT CATEGORY
+    // PORTRAIT CATEGORY - 7 photos
     {
         category: 'portrait',
-        title: 'Professional Portrait 1',
-        description: 'Classic elegance',
+        title: 'Fashion Editorial',
+        description: 'Bold and confident style',
         image: 'images/portrait-01.jpg'
     },
     {
         category: 'portrait',
-        title: 'Professional Portrait 2',
-        description: 'Timeless style',
+        title: 'Studio Elegance',
+        description: 'Timeless sophistication',
         image: 'images/portrait-02.jpg'
     },
     {
         category: 'portrait',
-        title: 'Professional Portrait 3',
-        description: 'Modern sophistication',
+        title: 'Urban Portrait',
+        description: 'Contemporary aesthetic',
         image: 'images/portrait-03.jpg'
     },
     {
         category: 'portrait',
-        title: 'Professional Portrait 4',
-        description: 'Natural beauty',
+        title: 'Vibrant Style',
+        description: 'Colorful personality',
         image: 'images/portrait-04.jpg'
     },
     {
         category: 'portrait',
-        title: 'Professional Portrait 5',
-        description: 'Artistic expression',
+        title: 'Artistic Expression',
+        description: 'Creative composition',
         image: 'images/portrait-05.jpg'
     },
     {
         category: 'portrait',
-        title: 'Professional Portrait 6',
-        description: 'Confident presence',
+        title: 'Modern Beauty',
+        description: 'Clean and sophisticated',
         image: 'images/portrait-06.jpg'
     },
     {
         category: 'portrait',
-        title: 'Professional Portrait 7',
-        description: 'Contemporary style',
+        title: 'Natural Light',
+        description: 'Sun-kissed elegance',
         image: 'images/portrait-07.jpg'
     },
     
-    // BOUDOIR CATEGORY
+    // BOUDOIR CATEGORY - 11 photos
     {
         category: 'boudoir',
-        title: 'Elegant Boudoir 1',
+        title: 'Elegant Silhouette',
         description: 'Artistic expression',
         image: 'images/boudoir-01.jpg'
     },
     {
         category: 'boudoir',
-        title: 'Elegant Boudoir 2',
-        description: 'Timeless beauty',
+        title: 'Beach Romance',
+        description: 'Natural and carefree',
         image: 'images/boudoir-02.jpg'
     },
     {
         category: 'boudoir',
-        title: 'Elegant Boudoir 3',
-        description: 'Celebrate confidence',
+        title: 'Timeless Beauty',
+        description: 'Classic elegance',
         image: 'images/boudoir-03.jpg'
     },
     {
         category: 'boudoir',
-        title: 'Elegant Boudoir 4',
-        description: 'Personal empowerment',
+        title: 'Natural Grace',
+        description: 'Warm and intimate',
         image: 'images/boudoir-04.jpg'
     },
     {
         category: 'boudoir',
-        title: 'Elegant Boudoir 5',
-        description: 'Intimate moments',
+        title: 'Dramatic Lighting',
+        description: 'Bold and confident',
         image: 'images/boudoir-05.jpg'
     },
     {
         category: 'boudoir',
-        title: 'Elegant Boudoir 6',
-        description: 'Sophisticated style',
+        title: 'Artistic Portrait',
+        description: 'Creative expression',
         image: 'images/boudoir-06.jpg'
     },
     {
         category: 'boudoir',
-        title: 'Elegant Boudoir 7',
-        description: 'Natural elegance',
+        title: 'Golden Hour',
+        description: 'Sunset elegance',
         image: 'images/boudoir-07.jpg'
     },
     {
         category: 'boudoir',
-        title: 'Elegant Boudoir 8',
-        description: 'Artistic beauty',
+        title: 'Urban Setting',
+        description: 'Contemporary style',
         image: 'images/boudoir-08.jpg'
     },
     {
         category: 'boudoir',
-        title: 'Elegant Boudoir 9',
-        description: 'Timeless grace',
+        title: 'Beach Moments',
+        description: 'Romantic and free',
         image: 'images/boudoir-09.jpg'
     },
     {
         category: 'boudoir',
-        title: 'Elegant Boudoir 10',
-        description: 'Confident beauty',
+        title: 'Sophisticated Style',
+        description: 'Elegant composition',
         image: 'images/boudoir-10.jpg'
     },
     {
         category: 'boudoir',
-        title: 'Elegant Boudoir 11',
-        description: 'Modern elegance',
+        title: 'Street Dance',
+        description: 'Dynamic movement',
         image: 'images/boudoir-11.jpg'
     },
     
-    // LIFESTYLE CATEGORY
+    // LIFESTYLE CATEGORY - 12 photos
     {
         category: 'lifestyle',
-        title: 'Lifestyle Moments 1',
-        description: 'Natural candid',
+        title: 'Active Lifestyle',
+        description: 'Outdoor adventure',
+        image: 'images/Lifestyle-01.jpg'
+    },
+    {
+        category: 'lifestyle',
+        title: 'Lakeside Moments',
+        description: 'Peaceful scenery',
+        image: 'images/Lifestyle-02.jpg'
+    },
+    {
+        category: 'lifestyle',
+        title: 'Sweet Baby',
+        description: 'Precious innocence',
+        image: 'images/Lifestyle-03.JPG'
+    },
+    {
+        category: 'lifestyle',
+        title: 'Feathered Friend',
+        description: 'Pet photography',
+        image: 'images/Lifestyle-04.JPG'
+    },
+    {
+        category: 'lifestyle',
+        title: 'Nature Walk',
+        description: 'Candid moments',
+        image: 'images/Lifestyle-05.jpg'
+    },
+    {
+        category: 'lifestyle',
+        title: 'Baby Joy',
+        description: 'Pure happiness',
         image: 'images/Lifestyle-06.jpg'
     },
     {
         category: 'lifestyle',
-        title: 'Lifestyle Moments 2',
-        description: 'Genuine emotion',
+        title: 'Waterside Beauty',
+        description: 'Natural setting',
         image: 'images/Lifestyle-07.jpg'
     },
     {
         category: 'lifestyle',
-        title: 'Lifestyle Moments 3',
-        description: 'Family joy',
+        title: 'Peaceful Baby',
+        description: 'Tender moments',
         image: 'images/Lifestyle-08.JPG'
     },
     {
         category: 'lifestyle',
-        title: 'Lifestyle Moments 4',
-        description: 'Precious memories',
+        title: 'Outdoor Fun',
+        description: 'Family memories',
         image: 'images/Lifestyle-09.jpg'
     },
     {
         category: 'lifestyle',
-        title: 'Lifestyle Moments 5',
-        description: 'Candid moments',
+        title: 'Playground Joy',
+        description: 'Childhood wonder',
         image: 'images/Lifestyle-10.JPG'
     },
     {
         category: 'lifestyle',
-        title: 'Lifestyle Moments 6',
+        title: 'Parkside Portrait',
         description: 'Natural connection',
         image: 'images/Lifestyle-11.jpg'
     },
     {
         category: 'lifestyle',
-        title: 'Lifestyle Moments 7',
-        description: 'Beautiful moments',
+        title: 'Sweet Smile',
+        description: 'Genuine emotion',
         image: 'images/Lifestyle-12.jpg'
     }
 ];
@@ -413,11 +438,14 @@ document.querySelectorAll('img[loading="lazy"]').forEach(img => {
 // ===== PARALLAX EFFECT FOR HERO =====
 window.addEventListener('scroll', () => {
     const scrolled = window.pageYOffset;
-    const heroContent = document.querySelector('.hero-content');
+    const hero = document.querySelector('.hero');
     
-    if (heroContent && scrolled < window.innerHeight) {
-        heroContent.style.transform = `translateY(${scrolled * 0.5}px)`;
-        heroContent.style.opacity = 1 - (scrolled / window.innerHeight);
+    if (hero && scrolled < window.innerHeight) {
+        const heroContent = document.querySelector('.hero-content');
+        if (heroContent) {
+            heroContent.style.transform = `translateY(${scrolled * 0.5}px)`;
+            heroContent.style.opacity = 1 - (scrolled / window.innerHeight) * 0.5;
+        }
     }
 });
 
