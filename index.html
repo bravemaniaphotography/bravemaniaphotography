@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bravemania Photography - Professional portrait, boudoir, and lifestyle photography in Melbourne. Capturing intimate, artistic moments with elegance and confidence.">
+    <title>Bravemania Photography | Intimate Portrait & Boudoir Photography Melbourne</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo-link">
+                <img src="logo-full.png" alt="Bravemania Photography" class="logo-img">
+            </a>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link nav-cta">Book Now</a></li>
+            </ul>
+            
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1529139574466-a303027c1d8b?q=80&w=1920&auto=format&fit=crop');"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">BRAVEMANIA</h1>
+            <p class="hero-subtitle">Photography</p>
+            <p class="hero-tagline">Capturing Intimate & Artistic Moments</p>
+            <a href="#contact" class="hero-cta">Book Your Session</a>
+        </div>
+        <div class="scroll-hint">Scroll to explore</div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Portfolio</h2>
+                <p>Explore our collection of intimate & artistic photography</p>
+            </div>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All Work</button>
+                <button class="filter-btn" data-filter="boudoir">Boudoir</button>
+                <button class="filter-btn" data-filter="portrait">Portrait</button>
+                <button class="filter-btn" data-filter="lifestyle">Lifestyle</button>
+            </div>
+            
+            <div class="portfolio-grid" id="portfolioGrid"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="logo-full.png" alt="Bravemania Photography">
+                </div>
+                <div class="about-content">
+                    <h2>About Bravemania Photography</h2>
+                    <p>Welcome to Bravemania Photography, where elegance meets artistry. Based in Melbourne, we specialize in creating intimate, empowering photography experiences that celebrate confidence, beauty, and authenticity.</p>
+                    
+                    <p>Our approach combines artistic vision with a comfortable, professional atmosphere. Whether you're looking for sophisticated boudoir photography, striking portraits, or candid lifestyle sessions, we create timeless images that tell your unique story.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Satisfaction</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Services</h2>
+                <p>Professional photography tailored to celebrate you</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-number">01</div>
+                    <h3>Boudoir Photography</h3>
+                    <p>Elegant, empowering sessions that celebrate confidence and beauty in a comfortable, private setting.</p>
+                    <ul class="service-features">
+                        <li>Private studio environment</li>
+                        <li>Professional guidance & posing</li>
+                        <li>Artistic composition</li>
+                        <li>Elegant retouching included</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-number">02</div>
+                    <h3>Portrait Photography</h3>
+                    <p>Professional portraits that capture your unique personality and style with artistic excellence.</p>
+                    <ul class="service-features">
+                        <li>Studio or outdoor sessions</li>
+                        <li>Professional lighting setup</li>
+                        <li>Wardrobe consultation</li>
+                        <li>High-resolution images</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-number">03</div>
+                    <h3>Lifestyle Photography</h3>
+                    <p>Candid, authentic moments captured naturally - perfect for families and special life events.</p>
+                    <ul class="service-features">
+                        <li>On-location shooting</li>
+                        <li>Natural, candid style</li>
+                        <li>Family-friendly approach</li>
+                        <li>Beautiful storytelling</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Let's create something beautiful together</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h4>Phone</h4>
+                        <p><a href="tel:+61431747529">0431 747 529</a></p>
+                        <p class="contact-apps">
+                            <a href="https://wa.me/61431747529" target="_blank">WhatsApp</a> · 
+                            <a href="https://signal.me/#p/+61431747529" target="_blank">Signal</a>
+                        </p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h4>Email</h4>
+                        <p><a href="mailto:info@bravemaniaphotography.com.au">info@bravemaniaphotography.com.au</a></p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h4>Location</h4>
+                        <p>Melbourne, Victoria<br>Australia</p>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <input type="tel" id="phone" placeholder="Phone (Optional)">
+                    <select id="service" required>
+                        <option value="">Select Service</option>
+                        <option value="boudoir">Boudoir Photography</option>
+                        <option value="portrait">Portrait Photography</option>
+                        <option value="lifestyle">Lifestyle Photography</option>
+                        <option value="other">General Inquiry</option>
+                    </select>
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Bravemania Photography | ABN: 67299864966</p>
+            <p>Safak Duygun · Melbourne, Victoria, Australia</p>
+        </div>
+    </footer>
+
+    <!-- Floating Contact Buttons -->
+    <div class="floating-contacts">
+        <a href="https://wa.me/61431747529" target="_blank" class="float-btn whatsapp" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.304-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+        </a>
+        <a href="https://signal.me/#p/+61431747529" target="_blank" class="float-btn signal" aria-label="Signal">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.514 0 10 4.486 10 10s-4.486 10-10 10S2 17.514 2 12 6.486 2 12 2zm-2.25 4.5c-.414 0-.75.336-.75.75v9.5c0 .414.336.75.75.75h4.5c.414 0 .75-.336.75-.75v-9.5c0-.414-.336-.75-.75-.75h-4.5z"/>
+            </svg>
+        </a>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <img src="" alt="" class="lightbox-img" id="lightboxImg">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h3>✓ Message Sent!</h3>
+            <p>Thank you for reaching out. We'll get back to you within 24 hours.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
